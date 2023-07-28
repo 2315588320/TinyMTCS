@@ -16,6 +16,6 @@ jobs:
       - name: AI Code Reviewer
         uses: 2315588320/ai-codereviewer@main
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: "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"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           exclude: "**/*.json, **/*.md" # Optional: exclude patterns separated by commas
