@@ -10,7 +10,7 @@ jobs:
       # This step checks out a copy of your repository.
       - uses: actions/checkout@v3
       # This step references the directory that contains the action.
-      - uses: 2315588320/gpt-code-review-action@v1.0
+      - uses: 2315588320/gpt-code-review-action
         with:
           openai-key: ${{ secrets.OPENAI_API_KEY }}
           # model: 'gpt-3.5-turbo'
